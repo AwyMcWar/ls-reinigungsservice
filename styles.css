@@ -132,7 +132,9 @@ nav a:hover {
     justify-content: center;
     padding: 1rem;
     text-align: center;
+    background-position: 55% center; 
   }
+}
 
   .hero-logo {
     position: static;
@@ -148,12 +150,13 @@ nav a:hover {
     padding: 0.6rem 1rem;
     border-radius: 10px;
     left: 50%;
-  
     top: auto;
-    bottom: 1.5rem;
+    animation: none;
+    bottom: 1.6rem;
+    margin-left: -10rem;
     width: max-content;
   }
-}
+
 
 
 /*Leistungen */
