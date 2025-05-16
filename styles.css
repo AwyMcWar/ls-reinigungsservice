@@ -114,7 +114,8 @@ nav a:hover {
   .hero-logo {
     top: 2rem;
     left: 40%;
-    transform: translateX(-50%);
+     transform: none;
+    translation: none;
     width: 300px;
   }
 
@@ -142,6 +143,7 @@ nav a:hover {
     margin-left: 1rem;
     margin-top: -20rem;
     transform: none;
+    translation: none;
     width: 350px;
   }
 
