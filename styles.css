@@ -133,6 +133,9 @@ nav a:hover {
     width: 400px;
   }
 }
+
+
+
 /* ---------- Smartphone (≤768px) ---------- */
 @media (max-width: 768px) {
   .hero {
@@ -199,6 +202,33 @@ nav a:hover {
   }
 }
 
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hero-banner {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    left: 2rem;
+    top: auto;
+    bottom: 2rem;
+    transform: none;
+    animation: none;
+  }
+}
+@media (max-width: 480px) {
+  .hero-logo {
+    position: relative;
+    margin-top: -5rem;
+    margin-left: -1rem;
+    width: 320px;
+    left: auto;
+    top: auto;
+  }
+
+  .hero {
+    padding-top: 2rem;
+    background-position: 55% center; /* weiter nach links, um das Gesicht mehr zu zeigen */
+  }
+}
 /*Leistungen */
 .icon-section {
   display: flex;
@@ -774,5 +804,6 @@ hr {
     display: flex;
   }
 }
+
 
 
